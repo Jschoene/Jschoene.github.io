@@ -1,0 +1,67 @@
+/* E.T Lab Custom Styles */
+
+/* Barlow font for body */
+body,
+html {
+  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-weight: 600 !important;
+}
+
+/* Navy blue navbar matching E.T Lab logo */
+nav.navbar {
+  background-color: #1B2A4A !important;
+}
+
+nav.navbar .navbar-brand {
+  color: #ffffff !important;
+}
+
+nav.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+nav.navbar .nav-link:hover,
+nav.navbar .nav-link:focus {
+  color: #ffffff !important;
+}
+
+nav.navbar .nav-link.active {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+/* Navbar toggler (mobile) */
+nav.navbar .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+nav.navbar .navbar-toggler-icon {
+  filter: invert(1) !important;
+}
+
+/* Dark mode toggle icon in navbar */
+nav.navbar .fa-moon,
+nav.navbar .fa-sun,
+nav.navbar i {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* Search icon */
+nav.navbar #light-toggle,
+nav.navbar .nav-item i {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* Header bar / fixed navbar background */
+header {
+  background-color: #1B2A4A !important;
+}
+
+/* Navbar on scroll */
+nav.navbar.navbar-fixed {
+  background-color: #1B2A4A !important;
+}
