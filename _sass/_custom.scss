@@ -1,0 +1,66 @@
+/* E.T Lab Custom Styles */
+
+/* Barlow font */
+body, html {
+  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-weight: 600 !important;
+}
+
+/* Navy blue navbar */
+nav.navbar {
+  background-color: #1B2A4A !important;
+}
+
+header {
+  background-color: #1B2A4A !important;
+}
+
+nav.navbar.navbar-fixed {
+  background-color: #1B2A4A !important;
+}
+
+nav.navbar .navbar-brand {
+  color: #ffffff !important;
+}
+
+nav.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+nav.navbar .nav-link:hover,
+nav.navbar .nav-link:focus {
+  color: #ffffff !important;
+}
+
+nav.navbar .nav-link.active {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+nav.navbar .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+nav.navbar .navbar-toggler-icon {
+  filter: invert(1) !important;
+}
+
+nav.navbar i,
+nav.navbar .fa-moon,
+nav.navbar .fa-sun,
+nav.navbar .fa-half-sun-moon,
+nav.navbar .fa-magnifying-glass,
+nav.navbar #light-toggle,
+nav.navbar .nav-item i {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* Dark mode navbar - keep same navy */
+html[data-theme="dark"] nav.navbar,
+html[data-theme="dark"] header {
+  background-color: #1B2A4A !important;
+}
