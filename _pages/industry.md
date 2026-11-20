@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /industry/
-title: industry
+title: Industry
 description: Industry partnerships and applied research.
 nav: true
 nav_order: 3
