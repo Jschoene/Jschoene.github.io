@@ -7,3 +7,73 @@ html[data-theme="dark"] {
   --global-theme-color: #4a7cc9;
   --global-hover-color: #6b9de0;
 }
+
+/* Barlow font */
+body, html {
+  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-weight: 600 !important;
+}
+
+/* Navy blue navbar */
+.navbar {
+  background-color: #1B2A4A !important;
+  border-bottom: none !important;
+}
+
+header {
+  background-color: #1B2A4A !important;
+}
+
+.navbar .navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #ffffff !important;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+.navbar .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.navbar .navbar-toggler .icon-bar {
+  background-color: #ffffff !important;
+}
+
+.navbar i,
+.navbar .fa-moon,
+.navbar .fa-sun,
+.navbar .fa-half-sun-moon,
+.navbar .fa-magnifying-glass,
+.navbar #light-toggle,
+.navbar .nav-item i {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* Dark mode navbar - keep same navy */
+html[data-theme="dark"] .navbar,
+html[data-theme="dark"] header {
+  background-color: #131f36 !important;
+}
+
+html[data-theme="dark"] .navbar .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+html[data-theme="dark"] .navbar .navbar-brand {
+  color: #ffffff !important;
+}
