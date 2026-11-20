@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Teaching, supervision, and mentorship.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 ## Current Teaching (Southampton)
