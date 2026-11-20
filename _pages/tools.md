@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /tools/
-title: tools
+title: Tools
 description: Research tools and AI chatbots from the E.T Lab and collaborators.
 nav: true
 nav_order: 6
