@@ -64,31 +64,17 @@ header {
   color: rgba(255, 255, 255, 0.85) !important;
 }
 
-/* Publication badges - paper icon style instead of dark boxes */
+/* Publication badges - outlined style */
 .publications .badge,
 .publications .badge.rounded,
 .publications .badge.rounded-pill {
   color: #1B2A4A !important;
   background-color: transparent !important;
   background: none !important;
-  border: 1px solid #1B2A4A !important;
-  font-size: 0 !important;
-  padding: 0.4rem !important;
-  min-width: 0 !important;
-  width: 2rem !important;
-  height: 2rem !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  border-radius: 4px !important;
-}
-
-.publications .badge::before {
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  content: "\f15c";
-  font-size: 0.9rem !important;
-  color: #1B2A4A;
+  border: 1.5px solid #1B2A4A !important;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  padding: 0.25rem 0.5rem !important;
 }
 
 /* CV date badges - no box, just navy blue text (double specificity to beat gem's .cv .card .list-group-item .badge) */
@@ -175,10 +161,6 @@ html[data-theme="dark"] .publications .badge {
   background-color: transparent !important;
   color: #4a7cc9 !important;
   border-color: #4a7cc9 !important;
-}
-
-html[data-theme="dark"] .publications .badge::before {
-  color: #4a7cc9;
 }
 
 html[data-theme="dark"] .cv .card .list-group-item .badge.badge,
