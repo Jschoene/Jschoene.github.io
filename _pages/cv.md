@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 cv_pdf: /assets/pdf/Jonas_Schoene_CV.pdf
 cv_format: rendercv
-description: Academic CV for Jonas P. Schoene.
+description: Academic CV for Jonas P. Schoene, Lecturer (Assistant Professor) at the University of Southampton.
 toc:
   sidebar: left
 ---
