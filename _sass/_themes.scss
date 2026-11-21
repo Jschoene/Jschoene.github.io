@@ -143,18 +143,20 @@ hr {
   margin-top: 2.5rem;
 }
 
-/* Lab page logo - circular, overlapping banner */
-.lab-page .lab-logo {
+/* Lab page logo - circular, top-right corner of banner */
+img.lab-logo {
+  float: right;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  margin: -80px auto 1.5rem auto;
-  display: block;
-  border: 4px solid #ffffff;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  object-fit: contain;
+  background: #ffffff;
+  padding: 5px;
+  margin-top: -5.5rem;
+  margin-bottom: 0;
   position: relative;
   z-index: 10;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.15);
 }
 
 /* CV section headings */
