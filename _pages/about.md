@@ -38,3 +38,18 @@ Before joining Southampton in 2026, I was a Postdoctoral Fellow at Stanford Univ
 <div class="publications">
 {% bibliography --query @*[note=Under Review] %}
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var el = document.querySelector('.post-title');
+  if (el) {
+    var html = el.innerHTML;
+    html = html.replace(/>J(?=onas)/g, '><b style="font-weight:700">J</b>');
+    html = html.replace(/ P\./g, ' <b style="font-weight:700">P</b>.');
+    html = html.replace(/ S(?=ch)/g, ' <b style="font-weight:700">S</b>');
+    html = html.replace(/<span class="font-weight-bold">(.*?)<\/span>/,
+      '<span style="font-weight:400">$1</span>');
+    el.innerHTML = html;
+  }
+});
+</script>
