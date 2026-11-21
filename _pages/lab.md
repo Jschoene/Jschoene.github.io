@@ -9,11 +9,15 @@ nav_order: 2
 
 <img src="/assets/img/logo.png" alt="E.T Lab Logo" class="lab-logo">
 
-The **Emotion & Technology (E.T) Lab** is directed by [Jonas P. Schöne](/) and is based in the [School of Psychology](https://www.southampton.ac.uk/about/faculties-schools-departments/school-of-psychology) at the University of Southampton. We investigate how emotional expressions are shaped, perceived, and experienced in technology-mediated environments. We combine experimental methods, computational tools, and large-scale data analysis to understand the interplay between human emotion and digital platforms.
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var logo = document.querySelector('img.lab-logo');
+  var header = document.querySelector('.post-header');
+  if (logo && header) header.appendChild(logo);
+});
+</script>
 
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="/assets/img/lab_jonas.jpg" alt="Jonas at Shackleton Building" style="max-width: 500px; width: 100%; border-radius: 8px;">
-</div>
+The **Emotion & Technology (E.T) Lab** is directed by [Jonas P. Schöne](/) and is based in the [School of Psychology](https://www.southampton.ac.uk/about/faculties-schools-departments/school-of-psychology) at the University of Southampton. We investigate how emotional expressions are shaped, perceived, and experienced in technology-mediated environments. We combine experimental methods, computational tools, and large-scale data analysis to understand the interplay between human emotion and digital platforms.
 
 ## Research Partnerships
 
@@ -39,6 +43,10 @@ How do emotions spread within teams and organisations, and how does this affect 
 ### Emotion Sharing and Perceiving
 
 How do people integrate multiple emotional expressions into an overall impression? We study the cognitive mechanisms behind emotion perception -- including the tendency to overestimate emotional intensity when aggregating across expressions -- and how these biases operate in both face-to-face and digital contexts. This foundational work informs our understanding of why online environments can feel more emotionally intense than they really are.
+
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/img/lab_jonas.jpg" alt="Jonas at Shackleton Building" style="max-width: 500px; width: 100%; border-radius: 8px;">
+</div>
 
 ---
 
