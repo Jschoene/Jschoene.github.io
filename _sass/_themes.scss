@@ -143,20 +143,25 @@ hr {
   margin-top: 2.5rem;
 }
 
-/* Lab page logo - circular, top-right corner of banner */
+/* Lab page logo - circular, vertically centered on right side of banner */
+.post-header {
+  position: relative;
+}
+
 img.lab-logo {
-  float: right;
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
   width: 70px;
   height: 70px;
   border-radius: 50%;
   object-fit: contain;
   background: #ffffff;
   padding: 5px;
-  margin-top: -5.5rem;
-  margin-bottom: 0;
-  position: relative;
   z-index: 10;
   box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+  margin: 0;
 }
 
 /* CV section headings */
