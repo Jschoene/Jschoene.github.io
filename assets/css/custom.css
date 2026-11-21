@@ -40,7 +40,7 @@ nav.navbar .navbar-toggler {
 }
 
 /* Dark mode toggle icon in navbar */
-nav.navbar .fa-moon,
+
 nav.navbar .fa-sun,
 nav.navbar i {
   color: rgba(255, 255, 255, 0.85) !important;
