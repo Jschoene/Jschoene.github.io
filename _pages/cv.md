@@ -16,4 +16,4 @@ toc:
     <i class="fas fa-download"></i> Download CV (PDF)
   </a>
 </div>
-<!-- updated styles -->
+<!-- cv badge fix v2 -->
