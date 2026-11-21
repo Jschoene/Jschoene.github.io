@@ -11,7 +11,18 @@ nav_order: 2
   <img src="/assets/img/logo.png" alt="E.T Lab" style="max-width: 250px;">
 </div>
 
-The **Emotion & Technology (E.T) Lab** investigates how emotional expressions are shaped, perceived, and experienced in technology-mediated environments. We combine experimental methods, computational tools, and large-scale data analysis to understand the interplay between human emotion and digital platforms.
+The **Emotion & Technology (E.T) Lab** is directed by [Jonas P. Schöne](/) and is based in the [School of Psychology](https://www.southampton.ac.uk/about/faculties-schools-departments/school-of-psychology) at the University of Southampton. We investigate how emotional expressions are shaped, perceived, and experienced in technology-mediated environments. We combine experimental methods, computational tools, and large-scale data analysis to understand the interplay between human emotion and digital platforms.
+
+## Research Partnerships
+
+The E.T Lab maintains close research collaborations with leading groups at Harvard and Stanford:
+
+- **[Goldenberg Lab](https://www.amitgoldenberg.com/)** (Harvard Business School) -- Joint work on emotion perception, amplification, and collective emotion dynamics. PI: [Amit Goldenberg](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1189871).
+- **[Politics and Social Change Lab](https://www.pascl.stanford.edu/)** (Stanford University) -- Joint work on digital well-being, AI interventions, and social media. PI: [Robb Willer](https://sociology.stanford.edu/people/robb-willer).
+- **[Stanford Culture and Emotion Lab](https://culture-emotion-lab.stanford.edu/)** (Stanford University) -- Joint work on content filtering and affective well-being. PI: [Jeanne Tsai](https://profiles.stanford.edu/jeanne-tsai).
+- **[Stanford Computational Psychology and Well-Being Lab](https://profiles.stanford.edu/eich)** (Stanford University) -- Joint work on AI chatbot interventions and social media language for well-being. PI: [Johannes Eichstaedt](https://profiles.stanford.edu/eich).
+
+---
 
 ## Research Directions
 
