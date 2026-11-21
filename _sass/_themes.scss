@@ -64,12 +64,23 @@ header {
   color: rgba(255, 255, 255, 0.85) !important;
 }
 
-/* All badges - white text on navy (publications + CV year badges) */
-.badge,
-.badge.rounded,
-.badge.rounded-pill {
+/* Publication badges - white text on navy */
+.publications .badge,
+.publications .badge.rounded,
+.publications .badge.rounded-pill {
   color: #ffffff !important;
   background-color: #1B2A4A !important;
+}
+
+/* CV date badges - no box, just navy blue text */
+.cv .badge {
+  color: #1B2A4A !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  padding: 0 !important;
 }
 
 /* Page title header area - white text on navy banner */
@@ -119,12 +130,6 @@ header {
   color: #1a1a1a !important;
 }
 
-/* CV date badges - bigger and more readable */
-.cv .badge {
-  font-size: 0.95rem !important;
-  padding: 0.45rem 0.85rem !important;
-  font-weight: 600 !important;
-}
 
 /* Dark mode */
 html[data-theme="dark"] .navbar,
@@ -144,9 +149,14 @@ html[data-theme="dark"] .post-header {
   background-color: #131f36 !important;
 }
 
-html[data-theme="dark"] .badge {
+html[data-theme="dark"] .publications .badge {
   background-color: #1B2A4A !important;
   color: #ffffff !important;
+}
+
+html[data-theme="dark"] .cv .badge {
+  color: #4a7cc9 !important;
+  background-color: transparent !important;
 }
 
 html[data-theme="dark"] .cv h2 {
