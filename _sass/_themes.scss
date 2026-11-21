@@ -106,6 +106,26 @@ header {
   padding-bottom: 0.3rem;
 }
 
+/* CV text contrast - make body text darker */
+.cv {
+  color: #1a1a1a !important;
+}
+
+.cv .card-text,
+.cv .card-title,
+.cv p,
+.cv li,
+.cv span:not(.badge) {
+  color: #1a1a1a !important;
+}
+
+/* CV date badges - bigger and more readable */
+.cv .badge {
+  font-size: 0.95rem !important;
+  padding: 0.45rem 0.85rem !important;
+  font-weight: 600 !important;
+}
+
 /* Dark mode */
 html[data-theme="dark"] .navbar,
 html[data-theme="dark"] header {
@@ -132,4 +152,13 @@ html[data-theme="dark"] .badge {
 html[data-theme="dark"] .cv h2 {
   color: #4a7cc9 !important;
   border-bottom-color: #4a7cc9;
+}
+
+html[data-theme="dark"] .cv,
+html[data-theme="dark"] .cv .card-text,
+html[data-theme="dark"] .cv .card-title,
+html[data-theme="dark"] .cv p,
+html[data-theme="dark"] .cv li,
+html[data-theme="dark"] .cv span:not(.badge) {
+  color: #e0e0e0 !important;
 }
