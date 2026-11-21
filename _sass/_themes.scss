@@ -72,10 +72,10 @@ header {
   background-color: #1B2A4A !important;
 }
 
-/* CV date badges - no box, just navy blue text */
-.cv .badge,
-.cv .badge.danger-color-dark,
-.cv .badge.font-weight-bold {
+/* CV date badges - no box, just navy blue text (must beat .cv .card .list-group-item .badge from gem) */
+.cv .card .list-group-item .badge,
+.cv .card .list-group-item .badge.danger-color-dark,
+.cv .card .list-group-item .badge.font-weight-bold {
   color: #1B2A4A !important;
   background-color: transparent !important;
   background: none !important;
@@ -84,6 +84,7 @@ header {
   font-weight: 700 !important;
   font-size: 1rem !important;
   padding: 0 !important;
+  border-radius: 0 !important;
 }
 
 /* Page title header area - white text on navy banner */
@@ -157,8 +158,8 @@ html[data-theme="dark"] .publications .badge {
   color: #ffffff !important;
 }
 
-html[data-theme="dark"] .cv .badge,
-html[data-theme="dark"] .cv .badge.danger-color-dark {
+html[data-theme="dark"] .cv .card .list-group-item .badge,
+html[data-theme="dark"] .cv .card .list-group-item .badge.danger-color-dark {
   color: #4a7cc9 !important;
   background-color: transparent !important;
   background: none !important;
