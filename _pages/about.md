@@ -13,7 +13,7 @@ profile:
     <p>University of Southampton</p>
     <p>Highfield Campus, SO17 1BJ</p>
 
-selected_papers: true # trigger rebuild
+selected_papers: true
 social: true
 
 announcements:
