@@ -7,10 +7,10 @@ cv:
   summary: Lecturer (Assistant Professor) in Social Psychology at the University of Southampton. Research on emotional expressions, social media, and well-being.
 
   social_networks:
-    - network: X
-      username: j_p_schoene
-    - network: GitHub
-      username: Jschoene
+    - network: Google Scholar
+      username: zY6MzXQAAAAJ
+    - network: LinkedIn
+      username: jonas-paul-schöne-330191336
 
   sections:
     Experience:
@@ -26,14 +26,42 @@ cv:
         location: Stanford, CA
         start_date: 2023
         end_date: 2026
-        summary: "PIs: Dr. Robb Willer & Dr. Jeanne Tsai"
+        summary: "PIs: Robb Willer, Jeanne Tsai, & Johannes Eichstaedt"
 
       - company: Game1.ai
         position: Scientific Advisor
         location:
         start_date: 2026
         end_date: present
-        summary: Conceptualize and validate standardized psychological test batteries to evaluate cognitive, emotional, and behavioral metrics in academy soccer players.
+        summary: Psychological test batteries for cognitive, emotional, and behavioural metrics in academy soccer players.
+
+      - company: Harvard Business School
+        position: Visiting Graduate Research Fellow
+        location: Cambridge, MA
+        start_date: 2022
+        end_date: 2023
+        summary: "Supervisor: Amit Goldenberg"
+
+      - company: Stanford University
+        position: Visiting Research Intern
+        location: Stanford, CA
+        start_date: 2018
+        end_date: 2019
+        summary: "Supervisor: James Gross"
+
+      - company: University of Surrey
+        position: Visiting Research Intern
+        location: Guildford, UK
+        start_date: 2018
+        end_date: 2018
+        summary: "Supervisor: Mark Cropley"
+
+      - company: Norwegian Cyber Defence Force
+        position: Visiting Research Intern
+        location: Norway
+        start_date: 2016
+        end_date: 2017
+        summary: "Supervisor: Stefan Suetterlin"
 
     Education:
       - institution: University of Oxford
@@ -44,8 +72,8 @@ cv:
         start_date: 2019
         end_date: 2023
         highlights:
-          - "PI: Dr. Brian Parkinson"
-          - "Co-PI: Dr. Amit Goldenberg (Harvard Business School)"
+          - "PI: Brian Parkinson"
+          - "Co-PI: Amit Goldenberg (Harvard Business School)"
 
       - institution: University of Applied Science Harz
         location: Wernigerode, Germany
@@ -54,36 +82,7 @@ cv:
         start_date: 2015
         end_date: 2019
         highlights:
-          - "PI: Dr. Georg Felser"
-
-    Visiting Fellowships:
-      - company: Harvard Business School, Harvard University
-        position: Visiting Graduate Research Fellow
-        location: Cambridge, MA
-        start_date: 2022
-        end_date: 2023
-        summary: "Supervisor: Dr. Amit Goldenberg"
-
-      - company: Department of Psychology, Stanford University
-        position: Visiting Research Intern
-        location: Stanford, CA
-        start_date: 2018
-        end_date: 2019
-        summary: "Supervisor: Dr. James Gross"
-
-      - company: Department of Health Psychology, University of Surrey
-        position: Visiting Research Intern
-        location: Guildford, UK
-        start_date: 2018
-        end_date: 2018
-        summary: "Supervisor: Dr. Mark Cropley"
-
-      - company: Norwegian Cyber Defense Force
-        position: Visiting Research Intern
-        location: Norway
-        start_date: 2016
-        end_date: 2017
-        summary: "Supervisor: Dr. Stefan Suetterlin"
+          - "PI: Georg Felser"
 
     Awards:
       - title: NSF Grant BCS 2518458
@@ -95,7 +94,7 @@ cv:
         date: 2025
         awarder: Stanford HAI
 
-      - title: HAI Google Clout Credit Grant
+      - title: HAI Google Cloud Credit Grant
         date: 2024
         awarder: Stanford HAI
         summary: "Filtering negative affective content from social media increases well-being ($5,000)"
@@ -141,7 +140,7 @@ cv:
       - title: Deutschlandstipendium
         date: 2017
         awarder: German Academic Scholarship Foundation
-        summary: "Research Grand for undergraduate thesis at Stanford University (35,000 EUR)"
+        summary: "Research Grant for undergraduate thesis at Stanford University (35,000 EUR)"
 
     Languages:
       - name: German
