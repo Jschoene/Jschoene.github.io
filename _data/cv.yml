@@ -1,10 +1,10 @@
 cv:
   name: "Jonas P. Sch\u00F6ne"
-  label: Social Psychologist
+  label: "Lecturer (Assistant Professor)"
   email: jonaspaul.schoene@gmail.com
   location: Southampton, UK
   image: ""
-  summary: Lecturer (Assistant Professor) in Social Psychology at the University of Southampton. Research on emotional expressions, social media, and well-being.
+  summary: "Lecturer (Assistant Professor) in Social Psychology at the University of Southampton. Research on emotional expressions, social media, and well-being."
 
   social_networks:
     - network: Google Scholar
@@ -27,41 +27,6 @@ cv:
         start_date: 2023
         end_date: 2026
         summary: "PIs: Robb Willer, Jeanne Tsai, & Johannes Eichstaedt"
-
-      - company: Game1.ai
-        position: Scientific Advisor
-        location:
-        start_date: 2026
-        end_date: present
-        summary: Psychological test batteries for cognitive, emotional, and behavioural metrics in academy soccer players.
-
-      - company: Harvard Business School
-        position: Visiting Graduate Research Fellow
-        location: Cambridge, MA
-        start_date: 2022
-        end_date: 2023
-        summary: "Supervisor: Amit Goldenberg"
-
-      - company: Stanford University
-        position: Visiting Research Intern
-        location: Stanford, CA
-        start_date: 2018
-        end_date: 2019
-        summary: "Supervisor: James Gross"
-
-      - company: University of Surrey
-        position: Visiting Research Intern
-        location: Guildford, UK
-        start_date: 2018
-        end_date: 2018
-        summary: "Supervisor: Mark Cropley"
-
-      - company: Norwegian Cyber Defence Force
-        position: Visiting Research Intern
-        location: Norway
-        start_date: 2016
-        end_date: 2017
-        summary: "Supervisor: Stefan Suetterlin"
 
     Education:
       - institution: University of Oxford
@@ -141,6 +106,43 @@ cv:
         date: 2017
         awarder: German Academic Scholarship Foundation
         summary: "Research Grant for undergraduate thesis at Stanford University (35,000 EUR)"
+
+    Visiting Positions:
+      - company: Harvard Business School
+        position: Visiting Graduate Research Fellow
+        location: Cambridge, MA
+        start_date: 2022
+        end_date: 2023
+        summary: "Supervisor: Amit Goldenberg"
+
+      - company: Stanford University
+        position: Visiting Research Intern
+        location: Stanford, CA
+        start_date: 2018
+        end_date: 2019
+        summary: "Supervisor: James Gross"
+
+      - company: University of Surrey
+        position: Visiting Research Intern
+        location: Guildford, UK
+        start_date: 2018
+        end_date: 2018
+        summary: "Supervisor: Mark Cropley"
+
+      - company: Norwegian Cyber Defence Force
+        position: Visiting Research Intern
+        location: Norway
+        start_date: 2016
+        end_date: 2017
+        summary: "Supervisor: Stefan Suetterlin"
+
+    Industry:
+      - company: Game1.ai
+        position: Scientific Advisor
+        location:
+        start_date: 2026
+        end_date: present
+        summary: Psychological test batteries for cognitive, emotional, and behavioural metrics in academy soccer players.
 
     Languages:
       - name: German
