@@ -28,6 +28,41 @@ cv:
         end_date: 2026
         summary: "PIs: Robb Willer, Jeanne Tsai, & Johannes Eichstaedt"
 
+      - company: Harvard Business School
+        position: Visiting Graduate Research Fellow
+        location: Cambridge, MA
+        start_date: 2022
+        end_date: 2023
+        summary: "Supervisor: Amit Goldenberg"
+
+      - company: Stanford University
+        position: Visiting Research Intern
+        location: Stanford, CA
+        start_date: 2018
+        end_date: 2019
+        summary: "Supervisor: James Gross"
+
+      - company: University of Surrey
+        position: Visiting Research Intern
+        location: Guildford, UK
+        start_date: 2018
+        end_date: 2018
+        summary: "Supervisor: Mark Cropley"
+
+      - company: Norwegian Cyber Defence Force
+        position: Visiting Research Intern
+        location: Norway
+        start_date: 2016
+        end_date: 2017
+        summary: "Supervisor: Stefan Suetterlin"
+
+      - company: Game1.ai
+        position: Scientific Advisor
+        location:
+        start_date: 2026
+        end_date: present
+        summary: Psychological test batteries for cognitive, emotional, and behavioural metrics in academy soccer players.
+
     Education:
       - institution: University of Oxford
         location: Oxford, UK
@@ -106,33 +141,6 @@ cv:
         date: 2017
         awarder: German Academic Scholarship Foundation
         summary: "Research Grant for undergraduate thesis at Stanford University (35,000 EUR)"
-
-    Research Visits:
-      - title: Harvard Business School
-        date: 2022-2023
-        awarder: Cambridge, MA
-        summary: "Visiting Graduate Research Fellow. Supervisor: Amit Goldenberg"
-
-      - title: Stanford University
-        date: 2018-2019
-        awarder: Stanford, CA
-        summary: "Visiting Research Intern. Supervisor: James Gross"
-
-      - title: University of Surrey
-        date: 2018
-        awarder: Guildford, UK
-        summary: "Visiting Research Intern. Supervisor: Mark Cropley"
-
-      - title: Norwegian Cyber Defence Force
-        date: 2016-2017
-        awarder: Norway
-        summary: "Visiting Research Intern. Supervisor: Stefan Suetterlin"
-
-    Industry:
-      - title: Game1.ai
-        date: 2026-present
-        awarder: Scientific Advisor
-        summary: "Psychological test batteries for cognitive, emotional, and behavioural metrics in academy soccer players."
 
     Languages:
       - name: German
