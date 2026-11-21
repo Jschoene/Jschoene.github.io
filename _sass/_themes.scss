@@ -73,9 +73,12 @@ header {
 }
 
 /* CV date badges - no box, just navy blue text */
-.cv .badge {
+.cv .badge,
+.cv .badge.danger-color-dark,
+.cv .badge.font-weight-bold {
   color: #1B2A4A !important;
   background-color: transparent !important;
+  background: none !important;
   border: none !important;
   box-shadow: none !important;
   font-weight: 700 !important;
@@ -154,9 +157,11 @@ html[data-theme="dark"] .publications .badge {
   color: #ffffff !important;
 }
 
-html[data-theme="dark"] .cv .badge {
+html[data-theme="dark"] .cv .badge,
+html[data-theme="dark"] .cv .badge.danger-color-dark {
   color: #4a7cc9 !important;
   background-color: transparent !important;
+  background: none !important;
 }
 
 html[data-theme="dark"] .cv h2 {
