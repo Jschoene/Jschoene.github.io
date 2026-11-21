@@ -31,8 +31,10 @@ To address this question, I study how people express and perceive emotions acros
 
 Before joining Southampton in 2026, I was a Postdoctoral Fellow at Stanford University (with [Robb Willer](https://sociology.stanford.edu/people/robb-willer), [Jeanne Tsai](https://profiles.stanford.edu/jeanne-tsai), and [Johannes Eichstaedt](https://profiles.stanford.edu/eich)). I hold a D.Phil. in Experimental Psychology from the University of Oxford (with [Brian Parkinson](https://www.psy.ox.ac.uk/people/brian-parkinson) and [Amit Goldenberg](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1189871) at Harvard Business School).
 
+---
+
 ## Preprints
 
 <div class="publications">
-{% bibliography --query @*[note=Under Review] %}
+{% bibliography --query @*[note=Under Review] --group_by none %}
 </div>
