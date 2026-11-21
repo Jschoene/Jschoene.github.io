@@ -118,13 +118,9 @@ header {
   text-decoration: underline !important;
 }
 
-/* Bold only initials (JPS) in page title - unbold the span, let <b> tags do the work */
-.post-title .font-weight-bold {
-  font-weight: 400 !important;
-}
-
-.post-title b {
-  font-weight: 700 !important;
+/* Hide year heading in about page preprints section */
+#preprints + .publications h2.bibliography {
+  display: none;
 }
 
 /* Capitalize section headings — NO !important so un-layered CSS beats Tailwind @layer */
