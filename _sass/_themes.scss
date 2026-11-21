@@ -118,10 +118,47 @@ header {
   text-decoration: underline !important;
 }
 
-/* Capitalize section headings on about page */
-h2 a,
-h2 {
-  text-transform: capitalize !important;
+/* Bold only initials (JPS) in page title - unbold the span, let <b> tags do the work */
+.post-title .font-weight-bold {
+  font-weight: 400 !important;
+}
+
+.post-title b {
+  font-weight: 700 !important;
+}
+
+/* Capitalize section headings — NO !important so un-layered CSS beats Tailwind @layer */
+h2,
+h2 a {
+  text-transform: capitalize;
+}
+
+/* Navy blue separator lines between sections */
+hr {
+  border: none;
+  border-top: 2px solid #1B2A4A;
+  margin: 2rem 0;
+}
+
+/* Separator before auto-generated h2 sections (news, selected publications) */
+.post > h2 {
+  border-top: 2px solid #1B2A4A;
+  padding-top: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+/* Lab page logo - circular, overlapping banner */
+.lab-page .lab-logo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: -80px auto 1.5rem auto;
+  display: block;
+  border: 4px solid #ffffff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  position: relative;
+  z-index: 10;
 }
 
 /* CV section headings */
@@ -188,4 +225,12 @@ html[data-theme="dark"] .cv p,
 html[data-theme="dark"] .cv li,
 html[data-theme="dark"] .cv span:not(.badge) {
   color: #e0e0e0 !important;
+}
+
+html[data-theme="dark"] hr {
+  border-top-color: #4a7cc9;
+}
+
+html[data-theme="dark"] .post > h2 {
+  border-top-color: #4a7cc9;
 }
