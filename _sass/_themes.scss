@@ -64,8 +64,10 @@ header {
   color: rgba(255, 255, 255, 0.85) !important;
 }
 
-/* Publication badges - white text on navy */
-.badge {
+/* All badges - white text on navy (publications + CV year badges) */
+.badge,
+.badge.rounded,
+.badge.rounded-pill {
   color: #ffffff !important;
   background-color: #1B2A4A !important;
 }
@@ -97,7 +99,14 @@ header {
   text-decoration: underline !important;
 }
 
-/* Dark mode navbar */
+/* CV section headings */
+.cv h2 {
+  color: #1B2A4A !important;
+  border-bottom: 2px solid #1B2A4A;
+  padding-bottom: 0.3rem;
+}
+
+/* Dark mode */
 html[data-theme="dark"] .navbar,
 html[data-theme="dark"] header {
   background-color: #131f36 !important;
@@ -118,4 +127,9 @@ html[data-theme="dark"] .post-header {
 html[data-theme="dark"] .badge {
   background-color: #1B2A4A !important;
   color: #ffffff !important;
+}
+
+html[data-theme="dark"] .cv h2 {
+  color: #4a7cc9 !important;
+  border-bottom-color: #4a7cc9;
 }
