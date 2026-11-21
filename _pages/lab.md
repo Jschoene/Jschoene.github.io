@@ -7,11 +7,15 @@ nav: true
 nav_order: 2
 ---
 
-<div style="text-align: center; margin-bottom: 2rem;">
-  <img src="/assets/img/logo.png" alt="E.T Lab" style="max-width: 250px;">
-</div>
+<div class="lab-page">
+
+<img src="/assets/img/logo.png" alt="E.T Lab Logo" class="lab-logo">
 
 The **Emotion & Technology (E.T) Lab** is directed by [Jonas P. Schöne](/) and is based in the [School of Psychology](https://www.southampton.ac.uk/about/faculties-schools-departments/school-of-psychology) at the University of Southampton. We investigate how emotional expressions are shaped, perceived, and experienced in technology-mediated environments. We combine experimental methods, computational tools, and large-scale data analysis to understand the interplay between human emotion and digital platforms.
+
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/img/lab_jonas.jpg" alt="Jonas at Shackleton Building" style="max-width: 500px; width: 100%; border-radius: 8px;">
+</div>
 
 ## Research Partnerships
 
@@ -63,3 +67,5 @@ Please email me at [jonaspaul.schoene@gmail.com](mailto:jonaspaul.schoene@gmail.
 3. Any relevant funding you have or plan to apply for
 
 I look forward to hearing from you.
+
+</div>
