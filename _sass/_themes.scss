@@ -118,6 +118,12 @@ header {
   text-decoration: underline !important;
 }
 
+/* Capitalize section headings on about page */
+h2 a,
+h2 {
+  text-transform: capitalize !important;
+}
+
 /* CV section headings */
 .cv h2 {
   color: #1B2A4A !important;
