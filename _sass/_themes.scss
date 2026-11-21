@@ -64,7 +64,40 @@ header {
   color: rgba(255, 255, 255, 0.85) !important;
 }
 
-/* Dark mode navbar - keep same navy */
+/* Publication badges - white text on navy */
+.badge {
+  color: #ffffff !important;
+  background-color: #1B2A4A !important;
+}
+
+/* Page title header area - white text on navy banner */
+.post-header {
+  background-color: #1B2A4A !important;
+  color: #ffffff !important;
+  padding: 1.5rem 2rem !important;
+  margin: -1.5rem -15px 2rem -15px !important;
+  border-radius: 4px;
+}
+
+.post-header .post-title,
+.post-header h1 {
+  color: #ffffff !important;
+}
+
+.post-header .post-description,
+.post-header .desc,
+.post-header p {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.post-header .post-description a,
+.post-header .desc a,
+.post-header p a {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+/* Dark mode navbar */
 html[data-theme="dark"] .navbar,
 html[data-theme="dark"] header {
   background-color: #131f36 !important;
@@ -75,5 +108,14 @@ html[data-theme="dark"] .navbar .nav-link {
 }
 
 html[data-theme="dark"] .navbar .navbar-brand {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .post-header {
+  background-color: #131f36 !important;
+}
+
+html[data-theme="dark"] .badge {
+  background-color: #1B2A4A !important;
   color: #ffffff !important;
 }
