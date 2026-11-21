@@ -36,5 +36,5 @@ Before joining Southampton in 2026, I was a Postdoctoral Fellow at Stanford Univ
 ## Preprints
 
 <div class="publications">
-{% bibliography --query @*[note=Under Review] --group_by none %}
+{% bibliography --query @*[note=Under Review] %}
 </div>
