@@ -1,1 +1,13 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var brand = document.querySelector('.navbar-brand');
+  if (brand) {
+    var html = brand.innerHTML;
+    html = html.replace(/>J(?=onas)/g, '><b style="font-weight:800">J</b>');
+    html = html.replace(/ P\./g, ' <b style="font-weight:800">P</b>.');
+    html = html.replace(/ S(?=ch)/g, ' <b style="font-weight:800">S</b>');
+    brand.innerHTML = html;
+  }
+});
+</script>
