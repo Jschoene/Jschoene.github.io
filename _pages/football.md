@@ -15,6 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
   var hdr = document.querySelector('header');
   if (nav) nav.style.setProperty('background-color', '#3a7d44', 'important');
   if (hdr) hdr.style.setProperty('background-color', '#3a7d44', 'important');
+  var b = document.querySelector('.navbar-brand');
+  if (b) { b.innerHTML = b.innerHTML.replace(/>J(?=onas)/,'><b style="font-weight:800">J</b>').replace(/ P\./,' <b style="font-weight:800">P</b>.').replace(/ S(?=ch)/,' <b style="font-weight:800">S</b>'); }
 });
 </script>
 
