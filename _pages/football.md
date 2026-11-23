@@ -26,7 +26,7 @@ I have played football as a goalkeeper since I was nine years old. Growing up in
 
 ---
 
-## Research and Advising
+## Research
 
 My academic interest in sports centres on the emotional and psychological dimensions of team performance. How do emotions spread within a squad? How do players and coaches perceive emotional expressions under pressure, and how does this affect collective decision-making?
 
