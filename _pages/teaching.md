@@ -7,6 +7,13 @@ nav: true
 nav_order: 4
 ---
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var b = document.querySelector('.navbar-brand');
+  if (b) { b.innerHTML = b.innerHTML.replace(/>J(?=onas)/,'><b style="font-weight:800">J</b>').replace(/ P\./,' <b style="font-weight:800">P</b>.').replace(/ S(?=ch)/,' <b style="font-weight:800">S</b>'); }
+});
+</script>
+
 ## Current Teaching (Southampton)
 
 **PSYC1014 Psychology of Attractiveness** -- Co-Instructor, Fall 2026
