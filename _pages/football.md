@@ -11,6 +11,10 @@ nav_order: 7
 document.addEventListener('DOMContentLoaded', function() {
   document.body.classList.add('football-page');
   document.querySelector('.post').classList.add('football-page');
+  var nav = document.querySelector('nav.navbar');
+  var hdr = document.querySelector('header');
+  if (nav) nav.style.setProperty('background-color', '#3a7d44', 'important');
+  if (hdr) hdr.style.setProperty('background-color', '#3a7d44', 'important');
 });
 </script>
 
