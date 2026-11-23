@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
   var logo = document.querySelector('img.lab-logo');
   var header = document.querySelector('.post-header');
   if (logo && header) header.appendChild(logo);
+  var b = document.querySelector('.navbar-brand');
+  if (b) { b.innerHTML = b.innerHTML.replace(/>J(?=onas)/,'><b style="font-weight:800">J</b>').replace(/ P\./,' <b style="font-weight:800">P</b>.').replace(/ S(?=ch)/,' <b style="font-weight:800">S</b>'); }
 });
 </script>
 
