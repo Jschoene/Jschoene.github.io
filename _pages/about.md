@@ -51,5 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
       '<span style="font-weight:400">$1</span>');
     el.innerHTML = html;
   }
+  var b = document.querySelector('.navbar-brand');
+  if (b) { b.innerHTML = b.innerHTML.replace(/>J(?=onas)/,'><b style="font-weight:800">J</b>').replace(/ P\./,' <b style="font-weight:800">P</b>.').replace(/ S(?=ch)/,' <b style="font-weight:800">S</b>'); }
 });
 </script>
