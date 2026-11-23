@@ -129,6 +129,15 @@ h2 a {
   text-transform: capitalize;
 }
 
+/* Consistent spacing between sections across all pages */
+article h2 {
+  margin-top: 2.5rem;
+}
+
+article h3 {
+  margin-top: 1.5rem;
+}
+
 /* Navy blue separator lines between sections */
 hr {
   border: none;
@@ -136,11 +145,16 @@ hr {
   margin: 2rem 0;
 }
 
+/* Reduce h2 margin when hr already provides spacing */
+hr + h2 {
+  margin-top: 0.5rem;
+}
+
 /* Separator before auto-generated h2 sections (news, selected publications) */
 .post > h2 {
   border-top: 2px solid #1B2A4A;
-  padding-top: 1.5rem;
-  margin-top: 2.5rem;
+  padding-top: 1rem;
+  margin-top: 2rem;
 }
 
 /* Lab page logo - circular, vertically centered on right side of banner */
