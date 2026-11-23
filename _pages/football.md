@@ -9,15 +9,16 @@ nav_order: 7
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  document.body.classList.add('football-page');
   document.querySelector('.post').classList.add('football-page');
 });
 </script>
 
-<div style="text-align: center; margin: 0 0 2rem 0;">
-  <img src="/assets/img/football_1.jpg" alt="Jonas in goalkeeper kit" style="max-width: 500px; width: 100%; border-radius: 8px;">
-</div>
-
 I have played football as a goalkeeper since I was nine years old. Growing up in Germany, the game was a constant -- through school, university, and every move abroad. I have played in **Germany**, **England**, **Norway**, the **United States**, and I still play regularly in the UK. Football is what first drew me to psychology: much of what I study today -- how people share and perceive emotions, how emotional dynamics shape group performance -- is rooted in questions I first encountered on the pitch.
+
+<div style="text-align: center; margin: 1.5rem 0;">
+  <img src="/assets/img/football_1.jpg" alt="Jonas in goalkeeper kit" style="max-width: 250px; width: 100%; border-radius: 8px;">
+</div>
 
 ---
 
