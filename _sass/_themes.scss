@@ -200,34 +200,39 @@ img.lab-logo {
 
 
 /* Football page - green theme */
-body.football-page .navbar,
+body.football-page .navbar.navbar,
+body.football-page header.header,
 body.football-page header {
-  background-color: #2d6a4f !important;
+  background-color: #3a7d44 !important;
+}
+
+body.football-page nav.navbar {
+  background-color: #3a7d44 !important;
 }
 
 .football-page .post-header {
-  background-color: #2d6a4f !important;
+  background-color: #3a7d44 !important;
 }
 
 .football-page h2,
 .football-page h3 {
-  color: #2d6a4f !important;
+  color: #3a7d44 !important;
 }
 
 .football-page a {
-  color: #2d6a4f !important;
+  color: #3a7d44 !important;
 }
 
 .football-page a:hover {
-  color: #40916c !important;
+  color: #4a9e50 !important;
 }
 
 .football-page hr {
-  border-top-color: #2d6a4f;
+  border-top-color: #3a7d44;
 }
 
 .football-page .post > h2 {
-  border-top-color: #2d6a4f;
+  border-top-color: #3a7d44;
 }
 
 /* Dark mode */
