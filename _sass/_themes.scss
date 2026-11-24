@@ -30,6 +30,11 @@ header {
 
 .navbar .navbar-brand {
   color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+.navbar .navbar-brand .font-weight-bold {
+  font-weight: 400 !important;
 }
 
 .navbar .nav-link {
