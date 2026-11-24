@@ -14,8 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var logo = document.querySelector('img.lab-logo');
   var header = document.querySelector('.post-header');
   if (logo && header) header.appendChild(logo);
-  var b = document.querySelector('.navbar-brand');
-  if (b) { var s = b.querySelector('.font-weight-bold'); if (s) s.style.fontWeight = '400'; b.lastChild.textContent = ''; var bold = document.createElement('span'); bold.style.fontWeight = '700'; bold.textContent = ' Sch\u00F6ne'; b.appendChild(bold); }
+
 });
 </script>
 
