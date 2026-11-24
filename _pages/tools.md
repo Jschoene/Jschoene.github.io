@@ -7,13 +7,6 @@ nav: true
 nav_order: 6
 ---
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  var b = document.querySelector('.navbar-brand');
-  if (b) { var s = b.querySelector('.font-weight-bold'); if (s) s.style.fontWeight = '400'; b.lastChild.textContent = ''; var bold = document.createElement('span'); bold.style.fontWeight = '700'; bold.textContent = ' Sch\u00F6ne'; b.appendChild(bold); }
-});
-</script>
-
 ## Well-Being Chatbots
 
 These chatbots were developed as part of the [AI and Emotional Well-Being](https://ai4pb.stanford.edu/project-categories/ai-and-emotional-well-being) initiative at the Stanford AI for Public Benefit Lab (with [Robb Willer](https://sociology.stanford.edu/people/robb-willer) and [Johannes Eichstaedt](https://profiles.stanford.edu/eich)). Each chatbot guides users through a brief, structured conversation grounded in well-being research. In a preregistered experiment (N = 2,922), these dialogues produced short-term improvements on several well-being outcomes. See [Schöne et al. (under review)](/publications/) for details.
