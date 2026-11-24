@@ -7,13 +7,6 @@ nav: true
 nav_order: 3
 ---
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  var b = document.querySelector('.navbar-brand');
-  if (b) { var s = b.querySelector('.font-weight-bold'); if (s) s.style.fontWeight = '400'; b.lastChild.textContent = ''; var bold = document.createElement('span'); bold.style.fontWeight = '700'; bold.textContent = ' Sch\u00F6ne'; b.appendChild(bold); }
-});
-</script>
-
 ## Industry Partnerships
 
 My research has always had a strong applied dimension. I believe that the best science emerges when academic rigour meets real-world problems, and I actively seek partnerships with organisations where insights from emotion and behavioural science can make a tangible difference.
