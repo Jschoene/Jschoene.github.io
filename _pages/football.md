@@ -15,8 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var hdr = document.querySelector('header');
   if (nav) nav.style.setProperty('background-color', '#3a7d44', 'important');
   if (hdr) hdr.style.setProperty('background-color', '#3a7d44', 'important');
-  var b = document.querySelector('.navbar-brand');
-  if (b) { var s = b.querySelector('.font-weight-bold'); if (s) s.style.fontWeight = '400'; b.lastChild.textContent = ''; var bold = document.createElement('span'); bold.style.fontWeight = '700'; bold.textContent = ' Sch\u00F6ne'; b.appendChild(bold); }
+
 });
 </script>
 
