@@ -41,17 +41,15 @@ Before joining Southampton in 2026, I was a Postdoctoral Fellow at Stanford Univ
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var el = document.querySelector('.post-title');
-  if (el) {
-    var html = el.innerHTML;
-    html = html.replace(/>J(?=onas)/g, '><b style="font-weight:700">J</b>');
-    html = html.replace(/ P\./g, ' <b style="font-weight:700">P</b>.');
-    html = html.replace(/ S(?=ch)/g, ' <b style="font-weight:700">S</b>');
-    html = html.replace(/<span class="font-weight-bold">(.*?)<\/span>/,
-      '<span style="font-weight:400">$1</span>');
-    el.innerHTML = html;
-  }
   var b = document.querySelector('.navbar-brand');
-  if (b) { b.innerHTML = b.innerHTML.replace(/>J(?=onas)/,'><b style="font-weight:800">J</b>').replace(/ P\./,' <b style="font-weight:800">P</b>.').replace(/ S(?=ch)/,' <b style="font-weight:800">S</b>'); }
+  if (b) {
+    var s = b.querySelector('.font-weight-bold');
+    if (s) s.style.fontWeight = '400';
+    b.lastChild.textContent = '';
+    var bold = document.createElement('span');
+    bold.style.fontWeight = '700';
+    bold.textContent = ' Sch\u00F6ne';
+    b.appendChild(bold);
+  }
 });
 </script>
